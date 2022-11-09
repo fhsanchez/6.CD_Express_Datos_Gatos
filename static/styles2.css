@@ -1,0 +1,82 @@
+/* Estilo pagina Cuddles */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: left; 
+    margin-left: 20px;
+    height: 80px;
+    width: 100%;
+}
+
+.cats{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;    
+}
+
+img{
+    width: 75%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.food{
+    display: flex;
+    align-items: center;
+    justify-content: left;    
+    background-color: rgb(206, 145, 236);
+    margin-left: 20px;
+    padding-left: 10px;
+    height: 60px;
+    width: 100%;
+}
+
+.age{
+    display: flex;
+    align-items: center;
+    justify-content: left;    
+    background-color: rgb(178, 103, 215);
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-left: 10px;
+    height: 60px;
+    width: 100%;
+}
+
+.sleeping{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    background-color: rgb(131, 70, 161);
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-left: 10px;
+    height: 120px;
+    width: 100%;
+}
+
+.sleeping h3{
+    margin-top: 20px;
+}
+.sleeping span{
+    margin-top: 10px;
+}
+
+/* Para todos los SPAN */
+span{    
+    margin-left: 10px;
+}

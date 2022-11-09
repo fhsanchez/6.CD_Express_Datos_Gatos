@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos Gatos</title>
+    <link rel="stylesheet" href="../static/styles1.css">
+</head>
+<body>
+
+    <main class="container">
+        <header><h1>EJS cats</h1></header>
+
+        <section class="cats">
+            <% for (let i in gatos) { %>
+                <a href="/cuddles/<%= i %>"><img src="<%= gatos[i].img %>"  alt="Imagen gato"></a>
+                <br>
+            <% } %>  
+<!-- 
+            <img src="<%= gatos[0].img %>" alt="Imagen gato 1">
+            <img src="<%= gatos[1].img %>"  alt="Imagen gato 2">
+            <img src="<%= gatos[2].img %>"  alt="Imagen tigre"> -->
+        </section>
+
+        
+
+    </main>
+    
+</body>
+</html>
